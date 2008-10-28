@@ -1,6 +1,6 @@
 package Net::Amazon::HadoopEC2::S3fs;
 use Moose;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use Net::Amazon::S3;
 use Net::Amazon::HadoopEC2::S3fs::Inode;
@@ -217,7 +217,7 @@ Hadoop Wiki, AmazonS3 - L<http://wiki.apache.org/hadoop/AmazonS3>
 
 =head1 REPOSITORY
 
-  svn co http://svn.coderepos.org/share/lang/perl/Net-Amazon-HadoopEC2/trunk Net-Amazon-HadoopEC2
+  svn co http://svn.coderepos.org/share/lang/perl/Net-Amazon-HadoopEC2-S3fs/trunk Net-Amazon-HadoopEC2-S3fs
 
 The svn repository of this module is hosted at L<http://coderepos.org/share/>.
 Patches and commits are welcome.
